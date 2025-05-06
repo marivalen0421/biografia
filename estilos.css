@@ -1,0 +1,119 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+#imagen {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color:#aed6f1;
+  border-radius: 15px;
+  box-shadow:0 0 20px #212f3c ;
+}
+
+
+.titulo{
+  text-align: center;
+  font-size: 40px;
+  font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+  margin-bottom: 20px;
+  color: #21618c;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.parrafo{
+	font-size:20px;
+  	text-align: justify;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.sub {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #21618c;
+  font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-align: center;
+}
+
+ul {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: center;
+	list-style:none;
+     padding: 0;
+}
+
+li {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+
+.imagen {
+  text-align: center;
+}
+
+.imagen img {
+  width: 200px;
+  border-radius: 50%;
+  border: 4px solid #ff69b4;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 20px;
+	
+}
+
+footer a {
+  color: #283747;
+  text-decoration: none;
+}
+
+
+ .galeria {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.grid-fotos {
+  display: grid;
+  grid-template-columns: 23% 23% 24% 24%;
+  gap: 15px;
+}
+
+.grid-fotos img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+	object-fit: cover;
+  border: 3px solid #283747;
+  box-shadow: 0 0 10px #283747;
+  transition: transform 0.3s ease;
+}
+
+.grid-fotos img:hover {
+  transform: scale(1.05);
+}
+
+
+
